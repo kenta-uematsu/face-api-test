@@ -1,0 +1,285 @@
+#remote-video{
+    position:fixed;
+    clip-path: circle(38% at 48% 50%);
+    top:5px;  
+    width:150vw;  
+    max-height: 98vh; 
+    max-width: 98vw; 
+    padding:5px;
+}
+
+#local-video{
+    position:fixed;   
+    clip-path: circle(40% at 50% 50%); 
+    left:3vw;
+    width:20vw; 
+    max-width: 20vw; 
+    max-height: 20vh; 
+    z-index : 1; 
+    padding:5px;
+}
+
+
+button {
+    background-color: #06B2E1;
+    font-weight: 800;
+    border-radius: 15px;
+    outline: none;
+}
+/*マウスオーバー*/
+button:hover {
+    font-weight: 800;
+    border-radius: 15px;
+    background-color: #88e3fc
+}
+
+/*マウスオーバー*/
+.btn_row:hover {
+    font-weight: 800;
+    border-radius: 0px;
+}
+
+.btn {
+    color: white;
+}
+
+#batt2_area {
+    top:0px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 2px;
+    color: #000;
+    background-color: null;
+    border-radius: 8px;
+    border: 2px solid #06b2e1;
+    z-index: 100;
+}
+
+#soc2 {
+    color: #06b2e1;
+    font-size: 18px;
+    position: fixed;
+    right: 11px;
+    top: 15px;
+    z-index: 100;
+    font-weight: 800;
+}
+
+#batt_no2 {
+    color: #06b2e1;
+    font-size: 14px;
+    position: fixed;
+    right: 5px;
+    top: 1px;
+    z-index: 100;
+}
+
+#batt1_area {
+    top:0px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 60px;
+    color: #000;
+    background-color: null;
+    border-radius: 8px;
+    border: 2px solid #06b2e1;
+    z-index: 100;
+}
+
+#soc1 {
+    color: #06b2e1;
+    font-size: 18px;
+    position: fixed;
+    right: 68px;
+    top: 15px;
+    z-index: 100;
+    font-weight: 800;
+}
+
+#batt_no1 {
+    color: #06b2e1;
+    font-size: 14px;
+    position: fixed;
+    right:63px;
+    top: 1px;
+    z-index: 100;
+}
+
+
+#speed_area {
+    top:0px;
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    right: 117px;
+    color: #000;
+    background-color: null;
+    border-radius: 8px;
+    border: 2px solid #06b2e1;
+    z-index: 100;
+}
+
+#now_speed {
+    color: #06b2e1;
+    font-size: 18px;
+    position: fixed;
+    right: 136px;
+    top: 15px;
+    z-index: 100;
+    font-weight: 800;
+}
+
+#caution_message_ap {
+    color: red;
+    font-size: 18px;
+    position: fixed;
+    right: 10px;
+    top: 115px;
+    z-index: 100;
+    font-weight: 600;
+}
+
+#caution_message_lte {
+    color: red;
+    font-size: 18px;
+    position: fixed;
+    right: 10px;
+    top: 133px;
+    z-index: 100;
+    font-weight: 600;
+}
+
+#cam_message_ap {
+    color: black;
+    font-size: 18px;
+    position: fixed;
+    right: 10px;
+    top:60px;
+    z-index: 100;
+}
+
+#cam_message_lte {
+    color: black;
+    font-size: 18px;
+    position: fixed;
+    right: 10px;
+    top:80px;
+    z-index: 100;
+}
+
+#emr_message_ap {
+    color: red;
+    font-size: 18px;
+    position: fixed;
+    right: 10px;
+    top: 138px;
+    z-index: 100;
+    font-weight: 600;
+}
+
+#emr_message_lte {
+    color: red;
+    font-size: 18px;
+    position: fixed;
+    right: 10px;
+    top: 157px;
+    z-index: 100;
+    font-weight: 600;
+}
+
+#sn {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    float: right;
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+.sonar_button {
+    position: fixed;
+    top:calc(50% - 35px);
+    height: 50px;
+    left: 12px;
+    color:white;
+    background-color: #06b2e1;
+    border-radius: 15px;
+    border: 2px solid white;
+    z-index: 100;
+}
+
+.speed_button {
+    position: fixed;
+    top:calc(50% - 88px);
+    height: 50px;
+    left: 12px;
+    color:white;
+    background-color: #06b2e1;
+    border-radius: 15px;
+    border: 2px solid white;
+    z-index: 100;
+}
+
+.main_button {
+    padding-top:11px;
+}
+
+#message1 {
+    color: black;
+    font-size: 18px;
+    padding-top:11px;
+    padding-left:30px;
+}
+
+.timer_button {
+    position: fixed;
+    top:calc(50% + 18px);
+    height: 50px;
+    left: 12px;
+    color:white;
+    background-color: #06b2e1;
+    border-radius: 15px;
+    border: 2px solid white;
+    z-index: 100;
+}
+
+.timer_area {
+    position: fixed;
+    top:calc(50% + 80px);
+    height: 50px;
+    left: 20px;
+    width: 110px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #06b2e1;
+    z-index: 100;
+}
+
+.timer_letter {
+    position: fixed;
+    font-size:10px;
+    color:#06b2e1;
+    top:calc(50% + 82px);
+    left: 37px;
+    z-index: 100;
+}
+
+#timer {
+    position: fixed;
+    font-size:25px;
+    color:#06b2e1;
+    top:calc(50% + 90px);
+    left: 33px;
+    z-index: 100;
+}
+
+.timer_input{
+ width: 70px;
+}
+
+.modal{
+    border-radius: 8px;
+    border: 3px solid #06b2e1;
+}

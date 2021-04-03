@@ -1,0 +1,13 @@
+{
+  "name": "SmartRobotics UVC ROBOT",
+  "short_name": "SR-P007-D001-00001",
+  "icons": [{
+        "src": "logo192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
+}
